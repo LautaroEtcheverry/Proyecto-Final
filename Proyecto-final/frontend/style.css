@@ -1,0 +1,80 @@
+body {
+    background: #f6f8fa;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container, form#formProducto {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 28px 24px 28px;
+    max-width: 400px;
+    width: 100%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form#formProducto h2 {
+    margin-bottom: 18px;
+    color: #333;
+}
+
+form#formProducto label {
+    width: 100%;
+    margin-bottom: 12px;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form#formProducto input,
+form#formProducto select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 4px;
+    font-size: 1rem;
+    background: #f9f9f9;
+}
+
+form#formProducto button {
+    margin: 10px 8px 0 0;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #1976d2;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form#formProducto button:last-child {
+    background: #388e3c;
+}
+
+form#formProducto button:hover {
+    opacity: 0.92;
+}
+
+a {
+    margin-top: 18px;
+    display: block;
+    text-align: center;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
